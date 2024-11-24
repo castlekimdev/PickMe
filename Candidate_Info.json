@@ -1,0 +1,279 @@
+{
+  "resultCode": "00",
+  "resultMsg": "NORMAL SERVICE",
+  "numOfRows": 10,
+  "pageNo": 1,
+  "totalCount": 10,
+  "results": [
+    {
+      "num": 1,
+      "sgId": "20231011",
+      "sgTypecode": "4",
+      "cnddtId": "1000000001",
+      "sggName": "서울특별시 종로구",
+      "sidoName": "서울특별시",
+      "wiwName": "종로구",
+      "partyName": "더불어민주당",
+      "krName": "이낙연",
+      "cnName": "李洛淵",
+      "prmsCnt": 2,
+      "promises": [
+        {
+          "prmsOrd": 1,
+          "prmsRealmName": "경제",
+          "prmsTitle": "소상공인 지원 확대",
+          "prmsCont": "소상공인의 경영 안정을 위한 지원 정책 강화"
+        },
+        {
+          "prmsOrd": 2,
+          "prmsRealmName": "복지",
+          "prmsTitle": "노인 복지 향상",
+          "prmsCont": "노인 일자리 창출 및 복지 서비스 확대"
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "sgId": "20231011",
+      "sgTypecode": "4",
+      "cnddtId": "1000000002",
+      "sggName": "서울특별시 종로구",
+      "sidoName": "부산광역시",
+      "wiwName": "해운대구",
+      "partyName": "국민의힘",
+      "krName": "서병수",
+      "cnName": "徐秉洙",
+      "prmsCnt": 2,
+      "promises": [
+        {
+          "prmsOrd": 1,
+          "prmsRealmName": "교통",
+          "prmsTitle": "지하철 노선 확장",
+          "prmsCont": "해운대구 내 지하철 노선 확장을 통한 교통 편의 증대"
+        },
+        {
+          "prmsOrd": 2,
+          "prmsRealmName": "환경",
+          "prmsTitle": "해양 환경 보호",
+          "prmsCont": "해양 쓰레기 수거 및 해양 생태계 보호 프로그램 강화"
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "sgId": "20231011",
+      "sgTypecode": "4",
+      "cnddtId": "1000000003",
+      "sggName": "대구광역시 수성구",
+      "sidoName": "대구광역시",
+      "wiwName": "수성구",
+      "partyName": "국민의힘",
+      "krName": "주호영",
+      "cnName": "朱豪英",
+      "prmsCnt": 2,
+      "promises": [
+        {
+          "prmsOrd": 1,
+          "prmsRealmName": "교육",
+          "prmsTitle": "교육 인프라 개선",
+          "prmsCont": "수성구 내 학교 시설 현대화 및 교육 프로그램 강화"
+        },
+        {
+          "prmsOrd": 2,
+          "prmsRealmName": "안전",
+          "prmsTitle": "지역 치안 강화",
+          "prmsCont": "CCTV 설치 확대 및 순찰 강화로 범죄 예방"
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "sgId": "20231011",
+      "sgTypecode": "4",
+      "cnddtId": "1000000004",
+      "sggName": "인천광역시 연수구",
+      "sidoName": "인천광역시",
+      "wiwName": "연수구",
+      "partyName": "더불어민주당",
+      "krName": "박찬대",
+      "cnName": "朴贊大",
+      "prmsCnt": 2,
+      "promises": [
+        {
+          "prmsOrd": 1,
+          "prmsRealmName": "산업",
+          "prmsTitle": "첨단 산업 유치",
+          "prmsCont": "연수구에 첨단 산업 단지 조성으로 일자리 창출"
+        },
+        {
+          "prmsOrd": 2,
+          "prmsRealmName": "문화",
+          "prmsTitle": "문화 시설 확충",
+          "prmsCont": "지역 주민을 위한 문화 센터 및 공연장 건립"
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "sgId": "20231011",
+      "sgTypecode": "4",
+      "cnddtId": "1000000005",
+      "sggName": "광주광역시 북구",
+      "sidoName": "광주광역시",
+      "wiwName": "북구",
+      "partyName": "더불어민주당",
+      "krName": "이형석",
+      "cnName": "李亨錫",
+      "prmsCnt": 2,
+      "promises": [
+        {
+          "prmsOrd": 1,
+          "prmsRealmName": "복지",
+          "prmsTitle": "청년 지원 강화",
+          "prmsCont": "청년 창업 지원 및 주거 안정 프로그램 도입"
+        },
+        {
+          "prmsOrd": 2,
+          "prmsRealmName": "교통",
+          "prmsTitle": "대중교통 개선",
+          "prmsCont": "버스 노선 최적화 및 정류장 시설 개선"
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "sgId": "20231011",
+      "sgTypecode": "4",
+      "cnddtId": "1000000006",
+      "sggName": "대전광역시 유성구",
+      "sidoName": "대전광역시",
+      "wiwName": "유성구",
+      "partyName": "국민의힘",
+      "krName": "이장우",
+      "cnName": "李長雨",
+      "prmsCnt": 2,
+      "promises": [
+        {
+          "prmsOrd": 1,
+          "prmsRealmName": "과학기술",
+          "prmsTitle": "연구 단지 활성화",
+          "prmsCont": "유성구 내 연구 단지 지원 확대 및 기업 유치"
+        },
+        {
+          "prmsOrd": 2,
+          "prmsRealmName": "환경",
+          "prmsTitle": "도시 녹지 조성",
+          "prmsCont": "지역 내 공원 확대 및 도시 녹지 공간 확충"
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "sgId": "20231011",
+      "sgTypecode": "4",
+      "cnddtId": "1000000007",
+      "sggName": "경기도 성남시 분당구",
+      "sidoName": "경기도",
+      "wiwName": "분당구",
+      "partyName": "더불어민주당",
+      "krName": "김병욱",
+      "cnName": "金炳旭",
+      "prmsCnt": 2,
+      "promises": [
+        {
+          "prmsOrd": 1,
+          "prmsRealmName": "주거",
+          "prmsTitle": "분당 리모델링 지원",
+          "prmsCont": "분당구 노후 아파트 리모델링 지원 정책 강화"
+        },
+        {
+          "prmsOrd": 2,
+          "prmsRealmName": "교통",
+          "prmsTitle": "GTX 노선 확장",
+          "prmsCont": "GTX 노선 확대 및 기존 교통망과 연계 강화"
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "sgId": "20231011",
+      "sgTypecode": "4",
+      "cnddtId": "1000000008",
+      "sggName": "경상남도 창원시",
+      "sidoName": "경상남도",
+      "wiwName": "창원시",
+      "partyName": "국민의힘",
+      "krName": "박완수",
+      "cnName": "朴完洙",
+      "prmsCnt": 2,
+      "promises": [
+        {
+          "prmsOrd": 1,
+          "prmsRealmName": "산업",
+          "prmsTitle": "창원 국가산단 재개발",
+          "prmsCont": "창원 국가산업단지 스마트화 및 리모델링 추진"
+        },
+        {
+          "prmsOrd": 2,
+          "prmsRealmName": "복지",
+          "prmsTitle": "가족 복지 서비스 확충",
+          "prmsCont": "육아 및 고령자 돌봄 서비스 확대"
+        }
+      ]
+    },
+    {
+      "num": 9,
+      "sgId": "20231011",
+      "sgTypecode": "4",
+      "cnddtId": "1000000009",
+      "sggName": "제주특별자치도",
+      "sidoName": "제주특별자치도",
+      "wiwName": "",
+      "partyName": "더불어민주당",
+      "krName": "오영훈",
+      "cnName": "吳怜勳",
+      "prmsCnt": 2,
+      "promises": [
+        {
+          "prmsOrd": 1,
+          "prmsRealmName": "환경",
+          "prmsTitle": "제주 환경 보호",
+          "prmsCont": "제주 지역 자연 자원 보존 및 관리 강화"
+        },
+        {
+          "prmsOrd": 2,
+          "prmsRealmName": "관광",
+          "prmsTitle": "관광 인프라 개선",
+          "prmsCont": "제주 관광 서비스 및 기반 시설 현대화"
+        }
+      ]
+    },
+    {
+      "num": 10,
+      "sgId": "20231011",
+      "sgTypecode": "4",
+      "cnddtId": "1000000010",
+      "sggName": "강원도 춘천시",
+      "sidoName": "강원도",
+      "wiwName": "춘천시",
+      "partyName": "국민의힘",
+      "krName": "허영",
+      "cnName": "許榮",
+      "prmsCnt": 2,
+      "promises": [
+        {
+          "prmsOrd": 1,
+          "prmsRealmName": "경제",
+          "prmsTitle": "강원도 기업 지원",
+          "prmsCont": "춘천 지역 중소기업 지원 및 창업 활성화"
+        },
+        {
+          "prmsOrd": 2,
+          "prmsRealmName": "교육",
+          "prmsTitle": "지역 대학 지원",
+          "prmsCont": "춘천 지역 대학의 연구 및 교육 프로그램 지원"
+        }
+      ]
+    }
+  ]
+}
