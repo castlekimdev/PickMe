@@ -1,8 +1,7 @@
 let mapContainer = document.getElementById('map'); // 지도를 표시할 div
 let mapOption = {
     center: new kakao.maps.LatLng(37.566826, 126.9786567), // 지도의 중심좌표
-    level: 8, // 지도의 확대 레벨
-    disableDoubleClick: false
+    level: 8 // 지도의 확대 레벨
 };
 
 let map = new kakao.maps.Map(mapContainer, mapOption); // 지도 생성
@@ -146,7 +145,7 @@ function findCandidates(regionName) {
         // 후보자의 정보를 포함하는 HTML 구조
         candidateDiv.innerHTML = `
             <div class="photo">
-                <img src="${candidate.cnddtId}.jpg" alt="${candidate.krName}"style="width:60px ; height:80px" />
+                <img src="Candidate_photo/${candidate.cnddtId}.jpg" alt="${candidate.krName}"style="width:60px ; height:80px" />
             </div>
             <div class="info">
                 <div class="name">${count}.${candidate.krName}</div>
