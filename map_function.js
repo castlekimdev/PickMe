@@ -1,6 +1,6 @@
 let mapContainer = document.getElementById('map'); // 지도를 표시할 div
 let mapOption = {
-    center: new kakao.maps.LatLng(37.566826, 126.9786567), // 지도의 중심좌표
+    center: new kakao.maps.LatLng(36.3504, 127.3845), // 지도의 중심좌표
     level: 8 // 지도의 확대 레벨
 };
 
@@ -13,6 +13,17 @@ let currentHighlightedPolygon = null; // 현재 하이라이트된 폴리곤
 
 // Candidate_Info와 당선자 정보를 저장할 변수
 let candidateInfo = [];
+// 지역별 좌표 정보
+const locations = {
+    seoul: { lat: 37.5665, lng: 126.9780 },
+    busan: { lat: 35.1796, lng: 129.0756 },
+    Daegu: { lat: 35.8714, lng: 128.6014 },
+    incheon: { lat: 37.4563, lng: 126.7052 },
+    Gwanju: { lat: 35.1595, lng: 126.8526 },
+    daegeon: { lat: 36.3504, lng: 127.3845 },
+    ewolsan: { lat: 35.5384, lng: 129.3114 },
+    sejong: { lat: 36.4809, lng: 127.2891 }
+};
 
 // 초기 데이터를 불러오고 후보자 정보도 함께 로드
 loadCandidateInfo();
@@ -89,6 +100,7 @@ function displayArea(area) {
 
     // 폴리곤 마우스 오버 이벤트
     kakao.maps.event.addListener(polygon, 'mouseover', function (mouseEvent) {
+        console.log(mouseEvent.latLng);
         if (currentHighlightedPolygon && currentHighlightedPolygon !== polygon) {
             currentHighlightedPolygon.setOptions({ fillColor: '#fff' });
         }
@@ -112,9 +124,6 @@ function displayArea(area) {
         // 더블 클릭한 지역구의 이름으로 후보자 검색 수행
         findCandidates(area.name);
     });
-    // 폴리곤 클릭 이벤트
-
-    // 폴리곤 더블 클릭 이벤트
     
 }
 
@@ -158,4 +167,14 @@ function findCandidates(regionName) {
     });
 }
 
-
+// 이벤트 핸들러 추가
+Object.keys(locations).forEach((key) => {
+    const li = document.getElementById(key);
+    if (li) {
+        li.addEventListener('click', () => {
+            const { lat, lng } = locations[key];
+            const moveLatLng = new kakao.maps.LatLng(lat, lng);
+            map.setCenter(moveLatLng); // 지도 중심 이동
+        });
+    }
+});
