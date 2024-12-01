@@ -1,0 +1,198 @@
+{
+  "resultCode": "00",
+  "resultMsg": "NORMAL SERVICE",
+  "numOfRows": 10,
+  "pageNo": 1,
+  "totalCount": 7,
+  "results": [
+    {
+      "num": 1,
+      "sgId": "20240410",
+      "sgTypecode": "4",
+      "cnddtId": "1000000001",
+      "sggName": "대전광역시 동구",
+      "sidoName": "대전광역시",
+      "wiwName": "동구",
+      "partyName": "더불어민주당",
+      "krName": "장철민",
+      "cnName": "張哲民",
+      "prmsCnt": 2,
+      "promises": [
+        {
+          "prmsOrd": 1,
+          "prmsRealmName": "교통",
+          "prmsTitle": "철도 소음 특별 관리구역 지정",
+          "prmsCont": "철도 소음으로부터 주민들을 보호하기 위한 특별 관리구역 지정 추진"
+        },
+        {
+          "prmsOrd": 2,
+          "prmsRealmName": "경제",
+          "prmsTitle": "원도심 활성화",
+          "prmsCont": "동구 원도심 지역의 경제 활성화를 위한 지원 정책 강화"
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "sgId": "20240410",
+      "sgTypecode": "4",
+      "cnddtId": "1000000002",
+      "sggName": "대전광역시 중구",
+      "sidoName": "대전광역시",
+      "wiwName": "중구",
+      "partyName": "더불어민주당",
+      "krName": "황운하",
+      "cnName": "黃雲夏",
+      "prmsCnt": 2,
+      "promises": [
+        {
+          "prmsOrd": 1,
+          "prmsRealmName": "교통",
+          "prmsTitle": "대중교통 개선 및 신설 노선 지원",
+          "prmsCont": "중구 내 대중교통 노선 개선 및 신규 버스 노선 추가"
+        },
+        {
+          "prmsOrd": 2,
+          "prmsRealmName": "문화",
+          "prmsTitle": "문화예술 지원 확대",
+          "prmsCont": "중구 내 문화예술 공간 확충 및 관련 지원 확대"
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "sgId": "20240410",
+      "sgTypecode": "4",
+      "cnddtId": "1000000003",
+      "sggName": "대전광역시 서구갑",
+      "sidoName": "대전광역시",
+      "wiwName": "서구갑",
+      "partyName": "더불어민주당",
+      "krName": "박범계",
+      "cnName": "朴範界",
+      "prmsCnt": 2,
+      "promises": [
+        {
+          "prmsOrd": 1,
+          "prmsRealmName": "행정",
+          "prmsTitle": "서구 제2청사 설립",
+          "prmsCont": "서구 행정서비스 강화를 위한 제2청사 설립 추진"
+        },
+        {
+          "prmsOrd": 2,
+          "prmsRealmName": "교육",
+          "prmsTitle": "교육환경 개선",
+          "prmsCont": "지역 내 학교 환경 개선 및 학생 지원 확대"
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "sgId": "20240410",
+      "sgTypecode": "4",
+      "cnddtId": "1000000004",
+      "sggName": "대전광역시 서구을",
+      "sidoName": "대전광역시",
+      "wiwName": "서구을",
+      "partyName": "국민의힘",
+      "krName": "양홍규",
+      "cnName": "梁洪奎",
+      "prmsCnt": 2,
+      "promises": [
+        {
+          "prmsOrd": 1,
+          "prmsRealmName": "환경",
+          "prmsTitle": "녹지 공간 확대",
+          "prmsCont": "서구을 지역 내 녹지와 공원 확대"
+        },
+        {
+          "prmsOrd": 2,
+          "prmsRealmName": "경제",
+          "prmsTitle": "지역경제 활성화",
+          "prmsCont": "지역 내 중소기업 지원 및 일자리 창출 정책 강화"
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "sgId": "20240410",
+      "sgTypecode": "4",
+      "cnddtId": "1000000005",
+      "sggName": "대전광역시 유성구갑",
+      "sidoName": "대전광역시",
+      "wiwName": "유성구갑",
+      "partyName": "국민의힘",
+      "krName": "이장우",
+      "cnName": "李長雨",
+      "prmsCnt": 2,
+      "promises": [
+        {
+          "prmsOrd": 1,
+          "prmsRealmName": "과학기술",
+          "prmsTitle": "연구단지 활성화",
+          "prmsCont": "유성구갑 내 연구단지 지원 확대 및 기업 유치 강화"
+        },
+        {
+          "prmsOrd": 2,
+          "prmsRealmName": "환경",
+          "prmsTitle": "녹지 공간 조성",
+          "prmsCont": "지역 내 녹지 공간과 공원 조성 확대"
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "sgId": "20240410",
+      "sgTypecode": "4",
+      "cnddtId": "1000000006",
+      "sggName": "대전광역시 유성구을",
+      "sidoName": "대전광역시",
+      "wiwName": "유성구을",
+      "partyName": "더불어민주당",
+      "krName": "이재승",
+      "cnName": "李載昇",
+      "prmsCnt": 2,
+      "promises": [
+        {
+          "prmsOrd": 1,
+          "prmsRealmName": "교육",
+          "prmsTitle": "학교 현대화",
+          "prmsCont": "지역 내 공립학교 현대화 및 교육지원 강화"
+        },
+        {
+          "prmsOrd": 2,
+          "prmsRealmName": "문화",
+          "prmsTitle": "문화 공간 조성",
+          "prmsCont": "주민 문화생활을 위한 시설 확대"
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "sgId": "20240410",
+      "sgTypecode": "4",
+      "cnddtId": "1000000007",
+      "sggName": "대전광역시 대덕구",
+      "sidoName": "대전광역시",
+      "wiwName": "대덕구",
+      "partyName": "더불어민주당",
+      "krName": "박영순",
+      "cnName": "朴永淳",
+      "prmsCnt": 2,
+      "promises": [
+        {
+          "prmsOrd": 1,
+          "prmsRealmName": "경제",
+          "prmsTitle": "소상공인 지원 강화",
+          "prmsCont": "대덕구 내 소상공인의 경영 안정 지원"
+        },
+        {
+          "prmsOrd": 2,
+          "prmsRealmName": "교통",
+          "prmsTitle": "대중교통 개선",
+          "prmsCont": "대덕구 내 버스 노선 확충 및 교통 편의 증대"
+        }
+      ]
+    }
+  ]
+}
