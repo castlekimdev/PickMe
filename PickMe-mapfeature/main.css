@@ -24,3 +24,7 @@
   border-radius: 50%; /* 원형으로 만듦 */
   border: 2px solid #ddd;
 }
+#myChart {
+  width: 300px;
+  height: 300px;
+}

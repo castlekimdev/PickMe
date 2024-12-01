@@ -41,21 +41,21 @@
       "sidoName": "대전광역시",
       "wiwName": "중구",
       "partyName": "더불어민주당",
-      "krName": "박용갑",
-      "cnName": "朴龍甲",
+      "krName": "황운하",
+      "cnName": "黃雲夏",
       "prmsCnt": 2,
       "promises": [
         {
           "prmsOrd": 1,
           "prmsRealmName": "교통",
-          "prmsTitle": "서대전역 지하 연결 및 환승주차장 조성",
-          "prmsCont": "서대전역과 서대전광장을 지하로 연결하고 환승주차장 조성 추진"
+          "prmsTitle": "대중교통 개선 및 신설 노선 지원",
+          "prmsCont": "중구 내 대중교통 노선 개선 및 신규 버스 노선 추가"
         },
         {
           "prmsOrd": 2,
           "prmsRealmName": "문화",
-          "prmsTitle": "문화예술 공간 확충",
-          "prmsCont": "중구 내 문화예술 공간을 확대하여 주민들의 문화 생활 향상"
+          "prmsTitle": "문화예술 지원 확대",
+          "prmsCont": "중구 내 문화예술 공간 확충 및 관련 지원 확대"
         }
       ]
     },
@@ -68,21 +68,21 @@
       "sidoName": "대전광역시",
       "wiwName": "서구갑",
       "partyName": "더불어민주당",
-      "krName": "장종태",
-      "cnName": "張鍾泰",
+      "krName": "박범계",
+      "cnName": "朴範界",
       "prmsCnt": 2,
       "promises": [
         {
           "prmsOrd": 1,
           "prmsRealmName": "행정",
-          "prmsTitle": "서구 제2청사 및 종합복지관 건립",
-          "prmsCont": "관저·도안권 주민들의 행정서비스 개선을 위한 제2청사 및 종합복지관 건립 추진"
+          "prmsTitle": "서구 제2청사 설립",
+          "prmsCont": "서구 행정서비스 강화를 위한 제2청사 설립 추진"
         },
         {
           "prmsOrd": 2,
           "prmsRealmName": "교육",
-          "prmsTitle": "일반계 고등학교 설립",
-          "prmsCont": "관저·도안권 지역에 일반계 고등학교 설립을 통해 교육 환경 개선"
+          "prmsTitle": "교육환경 개선",
+          "prmsCont": "지역 내 학교 환경 개선 및 학생 지원 확대"
         }
       ]
     },
@@ -95,21 +95,21 @@
       "sidoName": "대전광역시",
       "wiwName": "서구을",
       "partyName": "국민의힘",
-      "krName": "이영규",
-      "cnName": "李榮奎",
+      "krName": "양홍규",
+      "cnName": "梁洪奎",
       "prmsCnt": 2,
       "promises": [
         {
           "prmsOrd": 1,
           "prmsRealmName": "환경",
-          "prmsTitle": "도시녹지 공간 확충",
-          "prmsCont": "서구을 지역 내 녹지 공간을 확대하고 공원 조성을 통해 환경 개선"
+          "prmsTitle": "녹지 공간 확대",
+          "prmsCont": "서구을 지역 내 녹지와 공원 확대"
         },
         {
           "prmsOrd": 2,
           "prmsRealmName": "경제",
-          "prmsTitle": "전통시장 활성화",
-          "prmsCont": "전통시장 현대화 및 상인 지원을 통해 지역 경제 활성화"
+          "prmsTitle": "지역경제 활성화",
+          "prmsCont": "지역 내 중소기업 지원 및 일자리 창출 정책 강화"
         }
       ]
     },
@@ -135,8 +135,8 @@
         {
           "prmsOrd": 2,
           "prmsRealmName": "환경",
-          "prmsTitle": "도시녹지 공간 확충",
-          "prmsCont": "지역 내 공원 확대 및 녹지 공간 확충"
+          "prmsTitle": "녹지 공간 조성",
+          "prmsCont": "지역 내 녹지 공간과 공원 조성 확대"
         }
       ]
     },
@@ -149,21 +149,21 @@
       "sidoName": "대전광역시",
       "wiwName": "유성구을",
       "partyName": "더불어민주당",
-      "krName": "정용래",
-      "cnName": "鄭容來",
+      "krName": "이재승",
+      "cnName": "李載昇",
       "prmsCnt": 2,
       "promises": [
         {
           "prmsOrd": 1,
           "prmsRealmName": "교육",
-          "prmsTitle": "공립학교 시설 개선",
-          "prmsCont": "유성구 내 공립학교 시설 현대화 및 교육 환경 개선"
+          "prmsTitle": "학교 현대화",
+          "prmsCont": "지역 내 공립학교 현대화 및 교육지원 강화"
         },
         {
           "prmsOrd": 2,
           "prmsRealmName": "문화",
-          "prmsTitle": "문화공간 조성",
-          "prmsCont": "지역 주민들을 위한 문화 공간 확대 및 예술 프로그램 지원"
+          "prmsTitle": "문화 공간 조성",
+          "prmsCont": "주민 문화생활을 위한 시설 확대"
         }
       ]
     },
@@ -184,7 +184,7 @@
           "prmsOrd": 1,
           "prmsRealmName": "경제",
           "prmsTitle": "소상공인 지원 강화",
-          "prmsCont": "대덕구 내 소상공인의 경영 안정을 위한 지원 정책 강화"
+          "prmsCont": "대덕구 내 소상공인의 경영 안정 지원"
         },
         {
           "prmsOrd": 2,
