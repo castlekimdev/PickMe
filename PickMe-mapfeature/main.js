@@ -1,7 +1,7 @@
 const loadCandidateData = async () => {
   try {
     // JSON 파일 로드
-    const response = await fetch('Candidate_Info.json');
+    const response = await fetch('Daejeon_example.json');
     const jsonData = await response.json();
     const response2 = await fetch('CandidatePromisesFulfillment.json');
     const jsonData2 = await response2.json();
@@ -9,7 +9,7 @@ const loadCandidateData = async () => {
     const searchCandidate = sessionStorage.getItem('selectedCandidateNum');
 
     for (const candidate of jsonData.results) {
-        if (candidate.num == searchCandidate) {
+        if (candidate.cnddtId == searchCandidate) {
           const name = `Candidate_Photo/${candidate.cnddtId}.jpg`;
 
           // 후보자 이미지 가져오기
@@ -20,13 +20,13 @@ const loadCandidateData = async () => {
 
           // 이미지 클릭시 상세 페이지로 이동
           document.querySelector("#image").addEventListener('click', () => {
-            sessionStorage.setItem('selectedCandidateNum', `${candidate.num}`);
+            sessionStorage.setItem('selectedCandidateNum', `${candidate.cnddtId}`);
             window.location.href = 'candidate.html'; // 상세 페이지로 이동
           });
 
           // 이름 클릭시 상세 페이지로 이동
           document.querySelector("#name").addEventListener('click', () => {
-            sessionStorage.setItem('selectedCandidateNum', `${candidate.num}`);
+            sessionStorage.setItem('selectedCandidateNum', `${candidate.cnddtId}`);
             window.location.href = 'candidate.html'; // 상세 페이지로 이동
           });
 

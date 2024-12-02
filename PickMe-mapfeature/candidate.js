@@ -1,7 +1,7 @@
 const loadCandidateData = async () => {
   try {
     // JSON 파일 로드
-    const response = await fetch('Candidate_Info.json');
+    const response = await fetch('Daejeon_example.json');
     const jsonData = await response.json();
 
     const searchCandidate = sessionStorage.getItem('selectedCandidateNum');
@@ -10,7 +10,7 @@ const loadCandidateData = async () => {
       displayRealmNames(jsonData, searchCandidate);
 
       for (const candidate of jsonData.results) {
-        if (candidate.num == searchCandidate) {
+        if (candidate.cnddtId == searchCandidate) {
           const name = `Candidate_Photo/${candidate.cnddtId}.jpg`;
 
           // 후보자 이미지 가져오기
@@ -31,7 +31,7 @@ const loadCandidateData = async () => {
 const getAllPrmsRealmNames = (data, searchCandidate) => {
   const realmNames = [];
   data.results.forEach(candidate => {
-    if (candidate.num == searchCandidate) {  // 숫자 비교로 수정
+    if (candidate.cnddtId == searchCandidate) {  // 숫자 비교로 수정
       candidate.promises.forEach(promise => {
         realmNames.push(promise.prmsRealmName);
       });
@@ -70,7 +70,7 @@ const filterCandidates = (jsonData, query, searchCandidate) => {
   if (!query) return; // 검색어가 없으면 종료
 
   // 특정 후보자에 대한 결과만 필터링
-  const candidate = jsonData.results.find(candidate => candidate.num == searchCandidate);
+  const candidate = jsonData.results.find(candidate => candidate.cnddtId == searchCandidate);
   if (candidate) {
     candidate.promises.forEach(promise => {
       if (
