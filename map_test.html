@@ -6,13 +6,28 @@
     <title>카카오 지도 - 행정구역 표시</title>
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=fe07e2971da322eb8a1ea06db6d74e01"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="map_style.css" />
 </head>
 <body>
     <h1>지역구 후보자 찾기</h1>
-    <div id="map" style="width: 600px; height: 400px;"></div>
-    <div id="candidate-list" style="width: 100%; height: 200px; background: #f9f9f9; overflow-x: auto; padding: 10px;"></div>
+    <div style="display: flex;">
+        <div id="map"></div>
+        <div id="side-bar">
+            <ul>
+                <li id="seoul">서울특별시</li>
+                <li id="busan">부산광역시</li>
+                <li id="Daegu">대구광역시</li>
+                <li id="incheon">인천광역시</li>
+                <li id="Gwanju">광주광역시</li>
+                <li id="daegeon">대전광역시</li>
+                <li id="ewolsan">울산광역시</li>
+                <li id="sejong">세종특별자치시</li>
+            </ul>
+        </div>
+    </div>
+    <div id="candidate-list"></div>
 
     <script src="map_function.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,60 @@
+[
+  {
+    "cnddtId": "1000000001",
+    "krName": "장철민",
+    "Fulfillment": 21.5,
+    "inProgress": 26.2,
+    "Pending": 0,
+    "NonFulfillment": 52.3
+  },
+  {
+    "cnddtId": "1000000002",
+    "krName": "황운하",
+    "Fulfillment": 0,
+    "inProgress": 36,
+    "Pending": 0,
+    "NonFulfillment": 64
+  },
+  {
+    "cnddtId": "1000000003",
+    "krName": "박범계",
+    "Fulfillment": 47.8,
+    "inProgress": 52.2,
+    "Pending": 0,
+    "NonFulfillment": 0
+  },
+  {
+    "cnddtId": "1000000004",
+    "_comment": "당선 경험 無",
+    "krName": "양홍규",
+    "Fulfillment": 0,
+    "inProgress": 0,
+    "Pending": 0,
+    "NonFulfillment": 0
+  },
+  {
+    "cnddtId": "1000000005",
+    "krName": "이장우",
+    "Fulfillment": 16.1,
+    "inProgress": 80.5,
+    "Pending": 0,
+    "NonFulfillment": 3.4
+  },
+  {
+    "cnddtId": "1000000006",
+    "_comment": "당선 경험 無",
+    "krName": "이재승",
+    "Fulfillment": 0,
+    "inProgress": 0,
+    "Pending": 0,
+    "NonFulfillment": 0
+  },
+  {
+    "cnddtId": "1000000007",
+    "krName": "박영순",
+    "Fulfillment": 0,
+    "inProgress": 48.4,
+    "Pending": 0,
+    "NonFulfillment": 51.6
+  }
+]
